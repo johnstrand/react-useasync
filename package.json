@@ -1,0 +1,26 @@
+{
+    "name": "useasync",
+    "version": "1.0.0",
+    "description": "useAsync is a custom React hook for dealing with async operations",
+    "main": "dist/useasync.js",
+    "types": "dist/useasync.d.ts",
+    "files": [
+        "dist"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/johnstrand/react-useasync"
+    },
+    "scripts": {
+        "build": "node_modules/.bin/tsc",
+        "prepublishOnly": "node_modules/.bin/tsc"
+    },
+    "author": "John Strand",
+    "license": "MIT",
+    "devDependencies": {
+        "tslint-config-prettier": "^1.18.0",
+        "@types/react": "^16.8.10",
+        "react": "^16.8.6",
+        "typescript": "^3.3.4000"
+    }
+}
