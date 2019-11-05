@@ -1,5 +1,5 @@
 {
-    "name": "useasync",
+    "name": "react-hooks-useasync",
     "version": "1.0.0",
     "description": "useAsync is a custom React hook for dealing with async operations",
     "main": "dist/useasync.js",
