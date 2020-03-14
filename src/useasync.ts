@@ -1,6 +1,7 @@
 import { useReducer, useCallback } from "react";
 
 export enum AsyncState {
+  Idle,
   Pending,
   Done,
   Error
@@ -26,7 +27,7 @@ export default function useAsync<T extends any[], R>(
       ...state,
       ...action
     }),
-    { value: initialValue as R, state: AsyncState.Pending }
+    { value: initialValue as R, state: AsyncState.Idle }
   );
 
   const invoke = useCallback(
