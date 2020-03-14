@@ -1,6 +1,6 @@
 {
     "name": "react-hooks-useasync",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "useAsync is a custom React hook for dealing with async operations",
     "main": "dist/useasync.js",
     "types": "dist/useasync.d.ts",
