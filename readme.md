@@ -27,4 +27,6 @@ Thanks to TypeScript shenanigans, `wrappedMethod` will have the same named and t
 
 `state` is defined via an export enum `AsyncState`, with the four possible values `idle` (method has yet to be called), `pending` (method has been called but it hasn't resolved yet), `done` (method has finished with a result), or `error` (method has encountered an error, and the raw error is now in the `value` variable).
 
+`useAsync` will detect when a caller unmounts, and will avoid attempting to update the state
+
 # [A Code Sandbox example](https://codesandbox.io/s/use-async-u3eks)
